@@ -1,0 +1,143 @@
+.BG__brand {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:600px;
+    background-position: fixed;
+    background: rgb(74,1,1);
+    background: linear-gradient(90deg, rgba(74,1,1,0.8435749299719888) 0%, rgba(156,51,51,1) 0%, rgb(207, 7, 7) 100%);
+    z-index: -2;
+
+    
+    justify-items: center;
+    align-items: center;
+    background-image: url('C:\Users\admin\jolibee-clone\src\components\brand\background JB.png');
+}
+
+#brandimg{
+    display: none;
+}
+
+.tag-line {
+    color: white;
+    font-family: var(--font-family);
+    width: 30%;
+    right: 5rem;
+    display: flex;
+    position: absolute;
+    top: 10rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    
+    /* text-shadow: 3px 2px 5px black ; */
+    
+}
+.tag-line button{
+    position: relative;
+    width: 10rem;
+    font-family: var(--font-family);
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    background-color: #fa8003;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-color: white;
+    z-index:2
+}
+
+
+
+@media only screen and (max-width: 800px){
+   .BG__brand{
+    width: 100%;
+    background: rgb(74,1,1);
+    background: linear-gradient(270deg, rgba(74,1,1,0.8435749299719888) 0%, rgba(156,51,51,1) 0%, rgb(207, 7, 7) 140%);
+   /* background-image: url('./JB BG 2 small.png'); */
+}  
+
+
+
+    .brand_container{
+       
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        position: relative;
+        
+    justify-items: center;
+    }
+
+   .tag-line{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+        justify-items: center;
+        padding-left: 8rem;
+   }
+   .tag-line h1{
+    font-size: 150%;
+    text-shadow: 2px 2px 1px black ;
+
+   }
+ 
+
+    .tag-line h2{
+        text-shadow: 2px 2px 1px black ;
+        z-index: 2;
+        font-size: 100%;
+    }
+    .tag-line button{
+        width: 7rem;
+    }
+    #brandimg{
+        display: flex;
+        width: 40rem;
+        position: absolute;
+        bottom: -22.8rem
+    }
+
+}
+@media only screen and (max-width: 590px) {
+    #brandimg{
+        display: flex;
+        width: 30rem;
+        position: absolute;
+        bottom: -22.8rem
+    }
+    .tag-line{
+        width: 70%;
+    }
+  /* .tag-line h1{
+        font-size: 100%;
+    }
+    .tag-line h2{
+        text-shadow: 2px 2px 1px black ;
+        z-index: 2;
+        font-size: 80%;
+    } */
+
+}
+@media only screen and (max-width: 430px) {
+    
+
+#brandimg{
+    display: flex;
+    width: 25rem;
+    position: absolute;
+    bottom: -26.20rem
+}
+.tag-line h1{
+    font-size: 90%;
+}
+.tag-line h2{
+    text-shadow: 2px 2px 1px black ;
+    z-index: 2;
+    font-size: 70%;
+} 
+
+}

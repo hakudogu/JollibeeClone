@@ -1,0 +1,54 @@
+.footer_background{
+    width: 100%;
+    height: 100vh;
+}
+.gplink_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.group_container{
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    justify-items: flex-start;
+    text-decoration: none;
+    list-style: none;
+}
+.logo_button img{
+    max-width: 20rem;
+}
+.logo_button button{
+    position: relative;
+    width: 10rem;
+    font-family: var(--font-family);
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    background-color: #fa8003;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-color:
+     white;
+    z-index:2
+}
+.logo_button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    flex:1;
+    justify-content: space-between;
+}
+img[className='gplay_appstore']{
+    width: 10rem;
+}
+a[class='group_container']{
+    margin-bottom: 1rem;
+}
+@media only screen and (max-width: 580px){
+
+    .Jolly_logo{
+    align-items: center;
+    justify-content: center;
+    width:50%
+}}

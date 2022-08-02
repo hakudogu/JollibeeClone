@@ -1,0 +1,78 @@
+.navbar_BG{
+    background-color: #ea1b25;
+    width: 100%;
+    border-bottom: 2px solid #fa8003;
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* height: 100%; */
+}
+.navbar{
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+#Jollibee-logo{
+    position: absolute;
+    left: 3rem;
+    top:0.1%;
+    max-width: 15rem;
+    /* display: flex */
+    grid-area: a;
+}
+.navbar .padding{
+    grid-area: b;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    grid-area: c;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    
+    margin-right: 2rem;
+    color: white;
+    font-weight:bold;
+    font-size:1.0rem;
+    background-color: transparent;
+    align-items: center;
+    border-color: transparent;
+}
+
+#order-btn{    
+    font-family: var(--font-family);
+    font-size: 1.0rem ;
+    font-weight:bold;
+    border-radius: 1rem;
+    background-color: #fa8003;
+    padding: 0.5rem;
+    border-color: white!important;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.navbar hr{
+    display: none;
+}
+@media only screen and (max-width: 790px){
+   .navbar hr{
+        border: 2px solid white;
+        line-height: 10px;
+        display: flex;
+        width: 3rem;
+        border-radius: 1rem;
+    }
+    .buttons{
+        width: 0;
+    }
+    .button{
+        display: none;
+        font-size: 0;
+    }
+}
