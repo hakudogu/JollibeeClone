@@ -11,7 +11,7 @@
     
     justify-items: center;
     align-items: center;
-    background-image: url('C:\Users\admin\jolibee-clone\src\components\brand\background JB.png');
+    background-image: url('./background JB.png');
 }
 
 #brandimg{
