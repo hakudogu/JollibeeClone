@@ -13,7 +13,7 @@ class Brand extends Component {
         <button className='order'>Order Now</button>
         </td>
         </div>
-        {/* <img id='brandimg'src={Smallchicken} alt=''/> */}
+        <img id='brandimg'src={Smallchicken} alt=''/>
         
         
         {/* <picture>
